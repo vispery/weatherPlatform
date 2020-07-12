@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+<h1> hello this is traffic! </h1>
+
+{% block content %}
+
+
+<div>
+<div class="list-group" style="float:left">
+  <button type="button" class="list-group-item list-group-item-action active">
+      交通信息一
+  </button>
+        <button type="button" class="list-group-item list-group-item-action" disabled>{{ a_message }}</button>
+</div>
+<div style="clear:both"></div>
+</div>
+
+
+{% endblock %}

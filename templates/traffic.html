@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+<h1> hello this is traffic! </h1>
+
+{% block content %}
+
+
+{%for x in t_message.img_urls %}
+        <img src="{{ x }}">
+{% endfor %}
+
+<div>
+<div class="list-group" style="float:left">
+  <button type="button" class="list-group-item list-group-item-action active">
+      交通信息一
+  </button>
+    {%for x in t_message.fog_influenced %}
+        <button type="button" class="list-group-item list-group-item-action" disabled>{{ x }}</button>
+    {% endfor %}
+</div>
+<div class="list-group" style="float:left">
+  <button type="button" class="list-group-item list-group-item-action active">
+    交通信息二
+  </button>
+    {%for x in t_message.rain_influenced %}
+        <button type="button" class="list-group-item list-group-item-action" disabled>{{ x }}</button>
+    {% endfor %}
+</div>
+<div class="list-group" style="float:left">
+  <button type="button" class="list-group-item list-group-item-action active">
+    交通信息三
+  </button>
+    {%for x in t_message.thunder_influenced %}
+        <button type="button" class="list-group-item list-group-item-action" disabled>{{ x }}</button>
+    {% endfor %}
+</div>
+<div style="clear:both"></div>
+</div>
+
+
+{% endblock %}

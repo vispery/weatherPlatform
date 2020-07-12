@@ -1,0 +1,9 @@
+wheel
+jieba>=0.42.1
+python-docx>=0.8.10
+requests>=2.23.0
+Scrapy>=2.0.1
+selenium>=3
+python-dateutil
+Pillow>=7
+pymongo
