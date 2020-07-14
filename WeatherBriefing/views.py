@@ -24,10 +24,11 @@ def homepage(request):
         os.chdir("./briefGenerator")
 
         # 执行爬虫
-        #os.system("python generator.py")
+        os.system("python generator.py")
 
         # 切回django目录
         os.chdir(os.pardir)
+        return render(request,'chongDX.html')
     else:
         pass
 
@@ -66,3 +67,20 @@ def airport(request):
         context["a_message"] = a["document"]
 
     return render(request,'airport.html',context)
+
+def test(request):
+    return  render(request , 'test.html')
+
+def generateSpider(request):
+    # 切进爬虫目录
+    os.chdir("./briefGenerator")
+
+    # 执行爬虫
+    os.system("python generator.py")
+
+    # 切回django目录
+    os.chdir(os.pardir)
+    return render(request, 'test.html')
+
+def spider(request):
+    return  render(request,'spider.html')

@@ -2,7 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/briefGenerator/trafficBriefing" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/briefGenerator/weatherBriefing" vcs="Git" />
   </component>
 </project>

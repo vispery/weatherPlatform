@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//briefGenerator/connect_mongodb.py=utf-8
+encoding//briefGenerator/trainsition.py=utf-8
+encoding//trafficBriefing/trafficBriefing/img/util/picMod.py=utf-8
+encoding//trafficBriefing/trafficBriefing/items.py=utf-8
+encoding//trafficBriefing/trafficBriefing/middlewares.py=utf-8
+encoding//trafficBriefing/trafficBriefing/pipelines.py=utf-8
+encoding//trafficBriefing/trafficBriefing/settings.py=utf-8
+encoding//trafficBriefing/trafficBriefing/spiders/briefing.py=utf-8

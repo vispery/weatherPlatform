@@ -25,5 +25,8 @@ urlpatterns = [
     path('traffic/',views.traffic,name ='traffic'),
     path('ocean/',views.oceanSure,name ='ocean'),
     path('airport/',views.airport,name ='airport'),
+    path('generateSpider',views.generateSpider),
+    path('spider',views.spider),
+    path('test',views.test)
 
 ]
