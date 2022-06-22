@@ -5,7 +5,7 @@ requests>=2.23.0
 Scrapy>=2.0.1
 python-dateutil
 pymongo
-numpy==1.18.1
+numpy==1.22.0
 matplotlib==3.2.0
 selenium==3.141.0
 docx==0.2.4

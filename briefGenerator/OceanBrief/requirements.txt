@@ -1,7 +1,7 @@
 python_docx==0.8.10
 Scrapy==2.0.0
 pymongo==3.10.1
-numpy==1.18.1
+numpy==1.22.0
 matplotlib==3.2.0
 selenium==3.141.0
 docx==0.2.4
